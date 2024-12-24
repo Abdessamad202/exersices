@@ -1,0 +1,12 @@
+.success{
+    position:  absolute ;
+    right:  -500px ;
+    box-sizing: border-box ;
+    padding: 20px ;
+    background: black ;
+    color: white ;
+    transition: ease .3s ;
+}
+.active{
+    right: 50px;
+}
