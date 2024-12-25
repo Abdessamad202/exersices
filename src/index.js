@@ -1,16 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
-import reportWebVitals from './reportWebVitals';
-import ListStudents from "./cc1/part1/ListeStudents";
-import ListePersonnalisable from "./cc1/part2/ListePersonnalisable";
-import Login from "./tp/Login";
+import './bootstrap';
 
+import reportWebVitals from './reportWebVitals';
+import Form from './tp/form/Form';
+import Controlled from './tp/form/Controlled';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-      <div>
-          <Login />
-      </div>
+    <Controlled />
 );
 
 // If you want to start measuring performance in your app, pass a function
