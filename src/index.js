@@ -4,10 +4,9 @@ import './bootstrap';
 
 import reportWebVitals from './reportWebVitals';
 import Form from './tp/form/Form';
-import Controlled from './tp/form/Controlled';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-    <Controlled />
+    <Form />
 );
 
 // If you want to start measuring performance in your app, pass a function
